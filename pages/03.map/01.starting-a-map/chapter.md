@@ -9,17 +9,17 @@ intro:
     level: beginner
 ---
 
-!!!! Learning Objectives
-!!!!
-!!!! - Create a map using geographic data.
-!!!! - Use **Show Me** to change the currently selected type of chart.
-!!!! - Use quick calculations on measures.
-
 Our goal is to create a map to see what countries mods are coming from and in what quantities. Hopefully this will provide a more global perspective to Skyrim modding.
 
 Maps are used in many different types of visualizations. Two examples you are likely quite familiar with are weather maps and political maps. Where else have you seen maps used for data visualization? What worked well and what did not? When it comes to designing your own map, drawing from experience is the most important thing you can do.
 
 Tableau recognizes a variety of types of geographic data, from special spatial datasets to lists of coordinates. In our case, we have a list of text data with the column header _Country_. This is all Tableau needs to be able to visualize the data appropriately.
+
+!!!! ## Learning Objectives
+!!!!
+!!!! - Create a map using geographic data.
+!!!! - Use **Show Me** to change the currently selected type of chart.
+!!!! - Use quick calculations on measures.
 
 ## Add Data
 

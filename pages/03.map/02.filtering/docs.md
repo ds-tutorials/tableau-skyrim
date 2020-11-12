@@ -20,15 +20,15 @@ For example: We could add a filter to include only the United States in our visu
 
 ## Dealing with _3 unknown_
 
-Since the moment we added _Country_ to the worksheet, this _3 unknown_ message at the bottom of the map has been bothering me.
+Since the moment we added _Country_ to the worksheet, this "3 unknown" message at the bottom of the map has been bothering me.
 
-![The _3 unknown_ box](01.3-unknown.png)
+![The "3 unknown" box](01.3-unknown.png)
 
-1. Click on the message. A dialog box will pop up with three options: _Edit Locations..._, _Filter data_, and _Show data at default position_.
-2. Choose _Edit Locations..._. Even if we do not edit anything, this option allows us to see what values are causing an issue.
+1. Click on the message. A dialog box will pop up with three options: Edit Locations..., Filter data, and Show data at default position.
+2. Choose Edit Locations.... Even if we do not edit anything, this option allows us to see what values are causing an issue.
 ![Choosing to edit locations](02.edit-locations.png?cropResize=500,500)
 3. There are two columns here, with the data we are most interested in the top rows. The first three values in the _Your Data_ column (England, Not specified, and Wales) are listed as _Unrecognized_ in the _Matching Location_ column. Tableau only recognizes the United Kingdom, so we will need to tell it to map England and Wales as part of the UK. If we click on the box saying _Unrecognized_ and start typing _United Kingdom_, a drop down will pop up with various options, including the one we want. Select this for both England and Wales.
-![Changing England from Unrecognized to United Kingdom](03.united-kingdom.png)
+![Editing England's location](03.united-kingdom.png)
 4. Click OK.
 ! Note that we did not actually change the data - the Country fields for these records will still state _England_ or _Wales_, but now Tableau will know how to map these values. This would not be a solution for cleaning messy data. A good option is [OpenRefine](https://openrefine.org/), a free, open-source tool that makes it easy to investigate and clean data. OU Digital Scholarship maintains a [tutorial](https://ds-tutorials.github.io/openrefine-tutorial/) if you are interested.
 
@@ -36,7 +36,7 @@ Since the moment we added _Country_ to the worksheet, this _3 unknown_ message a
 
 There is not a good value to map our unspecified countries. We do want to remove them, however, because they are being counted as a country in their own right. This can interfere with our visualization. The easiest way to see this is to hover over the United States and see that it is ranked #2 for number of mods although it should be ranked #1. This filter is to solve a data issue, so it will not need to be interactive.
 
-1. Locate _Country_ under **Dimensions**.
+1. Locate _Country_ from the **Data** sidebar.
 2. Drag it onto the **Filters** shelf. Pay special attention to the small orange triangle that appears on the edge of the box. This, in addition to the orange outline, indicates that _Country_ will be added.
 ![Adding _Country_ to the **Filters** shelf](04.country-filters-shelf.png)
 ! Note: An alternative to this would be to find _Country_ on the **Marks** shelf, right click, and choose _Filter..._
@@ -50,14 +50,14 @@ There is not a good value to map our unspecified countries. We do want to remove
 
 Now we can add an interactive filter that will allow users to view the distribution of mods for the various mod categories. This kind of filter will not make any changes to our data. Instead, users will be able to manipulate the finished visualization themselves.
 
-1. Locate _Category_ under **Dimensions**.
+1. Locate _Category_ from the **Data** sidebar.
 2. Drag _Category_ to the **Filters** shelf.
 ! Make sure you can see the orange triangle we noticed earlier when adding _Country_. If you do not, that may be because Tableau thinks you want to replace the _Country_ filter with _Category_. The solution is to make sure not to drag _Category_ on top of _Country_.
 3. In the popup, choose _Use all_ instead of the default _Select from list_.
-![Setting a filter to use all Category values](06.use-all-categories.png)
+![Setting Category filter](06.use-all-categories.png)
 4. Click OK. This will not change anything on our map.
 5. Right click on _Category_ from **Filters** and choose _Show Filter_. This will display an interactive filter on the worksheet.
-![Choosing Show Filter for Category filter](07.show-filter.png)
+![Showing Category filter](07.show-filter.png)
 
 By default, this filter will be a long list of checkboxes. Note that the first option is _(All)_ and that the second is _Null_.
 

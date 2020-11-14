@@ -70,21 +70,21 @@ Since we are satisfied with the measures we are displaying in the map, we should
 
 1. Click on the Tooltip box on the **Marks** shelf. This will open up a dialog box allowing us to edit the text.
 2. Change the label _Count of mods.csv_ to _Number of Mods_. This makes it clear to viewers what the value is measuring.
-![Edit tooltip text. Country: <Country>, Number of Mods <CNT(mods.csv>, Rank of Count of mods.csv along Country: \<Rank of CNT(mods.csv)\>, Avg. Endorsements: \<AVG(Endorsements)\>](08.edit-tooltip-text.png)
+![Edit tooltip text. Country: <Country>, Number of Mods: <CNT(mods.csv)>, Rank of Count of mods.csv along Country: <Rank of CNT(mods.csv)>, Avg. Endorsements: <AVG(Endorsements)>](08.edit-tooltip-text.png)
 It is possible that the rows on your tooltip may not be in the same order as those shown in the screenshot. The order is up to you, so you can rearrange them to match or leave them as they are (or choose a completely new order).
 ! Note: Do not change `<CNT(mods.csv)>`. This phrase references the measure itself, so changing the name would confuse Tableau and cause errors.
 3. (Optional) Remove the line for the _Rank of Count of mods.csv along Country_. If you do not remove this line you will want to rename it to something more readable. For example: _Rank by Number of Mods_.
-4. Remove the label _Country_ and center `<Country>` by clicking the align _Center_ box on the top row of the tooltip editor.
-![The edit tooltip dialog box with our changes](08.tooltip-edited.png?cropResize=700,700)
+4. Remove the label _Country_ and center `<Country>` by clicking the align center box on the top row of the tooltip editor.
+![Edited tooltip text. <Country>, Number of Mods: <CNT(mods.csv)>, Avg. Endorsements: <AVG(Endorsements)>](09.tooltip-edited.png?cropResize=700,700)
 5. Check how the new tooltip will look by clicking the _Preview_ button on the bottom left. Note that this is right next to the _Reset_ button.
-![Tooltip preview for Antarctica](09.tooltip-preview.png)
+![Tooltip preview text. Antarctica, Number of Mods: 1, Avg. Endorsements: 1,045](10.tooltip-preview.png)
 6. Click OK.
 
 ### A Final Tooltip Note
 
 A final note: Try hovering over the United Kingdom and examine the tooltip that pops up. It will list the country as either England with 2 mods, United Kingdom with 267, or Wales with 3.
 
-![United Kingdom tooltip](10.uk-tooltip.png?cropResize=500,500)
+![UK tooltip text. England, Number of Mods: 2, Avg. Endorsements: 2,358](11.uk-tooltip.png?cropResize=500,500)
 
 This is because when we mapped England and Wales to the UK, we did not actually change the data. Even in this case it might have been preferable to use a data cleaning tool to change England and Wales to United Kingdom so we would have more consistent data.
 
@@ -94,10 +94,10 @@ This is because when we mapped England and Wales to the UK, we did not actually 
 
 We can also consider adding labels to the various countries on our map.
 
-1. Click on the **Label** box on the **Marks** shelf.
+1. Click on the Label box on the **Marks** shelf.
 2. Click the checkbox for _Show mark labels_.
-![Choosing Show mark labels](11.show-mark-labels.png?cropResize=900,900)
-3. This displays the rank for each country and is unnecessary. Undo the operation (control-Z or command-Z).
-4. We can choose our own labels instead. Drag _Country_ from **Dimensions** onto the **Label** box.
+![Showing mark labels](12.show-mark-labels.png?cropResize=900,900)
+3. This displays the rank for each country and is unnecessary. Undo the operation (Windows: control-Z or Mac: command-Z).
+4. We can choose our own labels instead. Drag _Country_ from the **Data** sidebar onto the Label box.
 ![Map with country names displayed as labels](12.country-labels.png?cropResize=900,900)
 5. This is excessively messy. Undo the operation.

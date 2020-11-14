@@ -100,5 +100,5 @@ We can also consider adding labels to the various countries on our map.
 ![Showing mark labels](12.show-mark-labels.png?cropResize=900,900)
 3. This displays the rank for each country and is unnecessary. Undo the operation (Windows: control-Z or Mac: command-Z).
 4. We can choose our own labels instead. Drag _Country_ from the **Data** sidebar onto the Label box.
-![Map with country names displayed as labels](12.country-labels.png?cropResize=900,900)
+![Map with country names displayed as labels](13.country-labels.png?cropResize=900,900)
 5. This is excessively messy. Undo the operation.

@@ -1,6 +1,5 @@
 ---
 title: Formatting
-media_order: '01.3-unknown.png,02.edit-locations.png,03.united-kingdom.png,04.country-filters-shelf.png,05.exclude-not-specified.png,06.use-all-categories.png,07.show-filter.png,08.category-filter.png,09.duplicate-category.png,10.exclude-null-categories.png,11.relevant-values.png,12.single-value-dropdown.png,13.dropdown-filter.png'
 taxonomy:
     category:
         - docs

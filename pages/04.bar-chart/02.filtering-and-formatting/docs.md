@@ -1,5 +1,6 @@
 ---
 title: 'Filtering and Formatting'
+media_order: '01.sort-tags-arrow.png,02.sort-tags.png,03.top-20.png,04.filtered-chart.png,05.hide-field-labels.png,06.format-chart.png,07.format-tab-lines.png,08.grid-lines-none.png,09.tricky-column-lines.png,10.hide-header.png'
 taxonomy:
     category:
         - docs
@@ -64,4 +65,4 @@ Edward Tufte, a famous figure in data visualization, coined the term "chartjunk"
 8. Change _Grid Lines_ to _None_ here as well.
 ! When I first made and saved a bar chart, I was very surprised to see that the saved visualization still showed grid lines despite having set the **Sheet** lines to _None_. It took a bit of experimentation and exploration until I found the problem with the **Column** lines.
 9. Right click anywhere on the bottom axis and click _Show Header_ to uncheck it.
-![Unchecking Show Header for the bottom axis](16.hide-header.png?cropResize=700,700)
+![Unchecking Show Header for the bottom axis](10.hide-header.png?cropResize=700,700)

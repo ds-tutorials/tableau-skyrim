@@ -1,5 +1,6 @@
 ---
 title: Filtering
+media_order: '13.dropdown-filter.png,09.duplicate-category.png,06.use-all-categories.png,03.united-kingdom.png,02.edit-locations.png,01.3-unknown.png,12.single-value-dropdown.png,08.category-filter.png,07.show-filter.png,11.relevant-values.png,10.exclude-null-categories.png,05.exclude-not-specified.png,04.country-filters-shelf.png'
 taxonomy:
     category:
         - docs

@@ -20,9 +20,9 @@ Our goal for the Endorsements scatter plot is to compare the endorsemens a mod r
 Our goal for the first scatter plot is to compare the endorsements a mod receives with the total number of times that mod is downloaded. How are the two measures related to each other? My initial assumption is that they would be heavily correlated, with high total downloads corresponding to high endorsements, but how related will they be and how much variation will there be? Another interesting question is: Which mods stand out within these measures? There are sure to be a few outliers, data points that do not fall within the same area as the majority of points.
 
 !!!! ## Learning Objectives
-> 
-> - Make a scatter plot.
-> - Use **Columns** and **Rows** to add dimensions/measures to a worksheet.
+!!!! 
+!!!! - Make a scatter plot.
+!!!! - Use **Columns** and **Rows** to add dimensions/measures to a worksheet.
 
 ## Endorsements Scatter Plot
 

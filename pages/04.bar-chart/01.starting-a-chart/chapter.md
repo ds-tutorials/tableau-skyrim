@@ -17,7 +17,7 @@ Our goal in this section is to see which tags are most popular. Each mod may hav
 !!!! - Join datasets.
 !!!! - Create a simple bar chart.
 
-## Using Multiple Data Sources
+## Multiple Data Sources
 
 Because the tag data we want to use for our bar chart is stored in a different file, we need to know how to work with multiple data sources. Because tags.csv is in the same folder as mods.csv, this will be fairly straightforward.
 
@@ -39,4 +39,26 @@ If you are familiar with the concept of joins, what we have done is somewhat sim
 
 Having these two tables related will allow us additional filter functionality later on. We could create our bar chart with only the data from tags.csv, but by relating that data to the mods.csv data, we can relate the bar chart we will make with our map and any other visualizations we create.
 
-## 
+## Bar Chart
+
+Now that we have added tags.csv, our goal is to use this data to show the top twenty tags for mods. We will start by creating a simple bar chart for all tags.
+
+1. Click the _New Worksheet_ button on the bottom panel of the application (to the right of the tab for the _Map_ worksheet and the left of the buttons for _New Dashboard_ and _New Story_).
+![Adding a new worksheet](06.new-worksheet.png)
+2. Right click _Sheet 2_ and rename it something more descriptive, like _Top Tags_.
+3. Note how the **Data** sidebar has changed. **Tables** now has two sections, one for mods.csv and one for tags.csv. We can expand or collapse these fields by clicking the caret to the left of the file names. Right now we are interested in the data from tags.csv, so we may as well collapse mods.csv for convenience.
+![The data sidebar with mods.csv collapsed and tags.csv expanded](07.data-tables.png)
+4. Locate _Tag_ under _**tags.csv**_ and drag it onto the blank worksheet. The sheet will display a list of the various mod tags along with some placeholder text _Abc_.
+![The list of tags](08.tags-list.png)
+
+We also want to see how many mods are associated with each tag.
+
+1. Locate _tags.csv (Count)_. We earlier discussed how _mods.csv (Count)_ means the same thing as the number of mods. Likewise, _tags.csv (Count)_ means the number of tags. However, for each tag, the same mod will only ever be listed once. That is, no mod-tag pair from tags.csv will be the same as any other. This means that _tags.csv (Count)_ provides the number of mods associated with a given tag.
+2. Drag _tags.csv (Count)_ on top of the _Abc_ placeholder text. (The column with the placeholder text will show a black outline when you hover over it with _tags.csv (Count)_.)
+![Adding tags.csv (Count)/Number of Records to the worksheet](09.number-of-records.png)
+3. Click on the **Show Me** tab on the top right and choose the _bar chart_ option. It should have a red/orange outline, which means that it is the recommended chart type.
+![Changing chart type to _bar chart_](10.show-me-bars.png?cropResize=300,500)
+
+We have a bar chart displaying the information we want - how many mods use each tag.
+
+![tags bar chart](11.tags-chart.png)

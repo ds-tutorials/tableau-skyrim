@@ -1,6 +1,6 @@
 ---
 title: 'Starting a Chart'
-media_order: '01.data-source.png,02.tags-csv.png,03.add-tags.png,04.define-relationship.png,05.tags-data.png'
+media_order: '01.data-source.png,02.tags-csv.png,03.add-tags.png,04.define-relationship.png,05.tags-data.png,06.new-worksheet.png,07.data-tables.png,08.tags-list.png,09.number-of-records.png,10.show-me-bars.png,11.tags-chart.png'
 taxonomy:
     category:
         - docs

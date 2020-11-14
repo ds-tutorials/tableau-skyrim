@@ -1,5 +1,6 @@
 ---
 title: Formatting
+media_order: '01.color-opacity.png,02.shape-circle.png,03.format-lines.png,04.tooltip.png,05.edit-axis.png,06.endorsements-range.png,07.endorsements-ticks.png,08.dls-range.png,09.dls-ticks.png,10.finished-plot.png'
 taxonomy:
     category:
         - docs

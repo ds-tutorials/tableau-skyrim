@@ -1,5 +1,6 @@
 ---
 title: 'Starting a Chart'
+media_order: '01.data-source.png,02.tags-csv.png,03.add-tags.png,04.define-relationship.png,05.tags-data.png'
 taxonomy:
     category:
         - docs
@@ -37,3 +38,5 @@ Tableau will now show us the data from tags.csv, like it did when we connected t
 If you are familiar with the concept of joins, what we have done is somewhat similar. By telling Tableau how mods.csv and tags.csv are related, Tableau is now equipped to join the two tables in whatever way we need without any additional input. If you are not familiar with joins, there is no need to be, because Tableau is handling all of this behind the scenes.
 
 Having these two tables related will allow us additional filter functionality later on. We could create our bar chart with only the data from tags.csv, but by relating that data to the mods.csv data, we can relate the bar chart we will make with our map and any other visualizations we create.
+
+## 

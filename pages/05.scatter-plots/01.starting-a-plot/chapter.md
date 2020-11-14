@@ -56,8 +56,8 @@ Unfortunately, we only have one point on our chart. This is because Tableau does
 
 1. Locate _Mod ID_ under mods.csv on the **Data** sidebar.
 2. Drag it onto the Detail box on the **Marks** shelf.
-![The Detail box](07.marks-detail.png?cropResize=400,400)
+![The Detail box](06.marks-detail.png?cropResize=400,400)
 
 Now we should see a point for each mod. As we can see, endorsements and total downloads are indeed heavily correlated. The most extreme outlier in our dataset, the point at the top right, is for the mod [SkyUI](https://www.nexusmods.com/skyrim/mods/3863), a complete overhaul of the Skyrim user interface.
 
-![A scatter plot with many points, most going diagonally from the bottom left to the top right](08.many-point-plot.png?cropResize=800,900)
+![A scatter plot with many points, most going diagonally from the bottom left to the top right](07.many-point-plot.png?cropResize=800,900)

@@ -47,26 +47,31 @@ The biggest issue with our tooltip is that it currently displays Mod ID in addit
 
 ## Axes
 
-Finally, we will make a few edits to the axes. There are two main changes worth making. The first is making the range fixed. The Endorsements range (y-axis) currently goes up to somewhere between 700,000 and 800,000, but if we filtered the dataset, perhaps showing only mods with the category _Books and Scrolls_, the endorsements range would adjust to better fit that limited dataset. Without taking note of the changed range, it would look like mods from _Books and Scrolls_ had more endorsements (and total downloads) than they actually did. Keeping the range fixed will eliminate this problem. It does mean we may be left with extra whitespace depending on what subset of mods we are looking at, but I find this a small price to pay.
+Finally, we will make a few edits to the axes. There are two main changes worth making. The first is making the range fixed. The Endorsements range (y-axis) currently goes up to somewhere between 700,000 and 800,000, but if we filtered the dataset, perhaps showing only mods with the category _Books and Scrolls_, this range would adjust to better fit that limited dataset. While this can be quite useful, it can also be confusing. If a viewer didn't notice how the range changed, it would look like mods from _Books and Scrolls_ had more endorsements (and total downloads) than they actually did. Keeping the range fixed will eliminate this problem. It does mean we may be left with extra whitespace depending on what subset of mods we are looking at, but I find this a reasonable price to pay.
 
 The other change we will make is to the axis ticks themselves. We have a tick mark every 100,000 endorsements, making for a fairly busy axis. These extra tick marks are not really helping us or our viewers, however. As long as I have a general idea of the range, that is good enough to estimate what is happening in the scatter plot. If I want to know exactly how many endorsements or downloads a mod has, I can hover over the data point and examine the tooltip. We will therefore set larger gaps between tick marks.
 
+### Endorsements (y-axis)
+
 1. Right click on the y-axis (_Endorsements_) and choose _Edit Axis..._.
-![Choosing Edit Axis for the (vertical) y-axis](13.edit-axis.png)
-2. In the _General_ tab, set the **Range** to _Fixed_. There is no need to change the default values.
-![Editing the axis for Endorsements - general](14.endorsements-range.png?cropResize=700,700)
-3. Switch to the _Tick Marks_ tab.
-4. Set the **Major Tick Marks** to _Fixed_. Here we are less concerned about having them change on us (since the range will not change), but we cannot define the tick interval without choosing this setting.
-5. Change the _Tick Interval_ to 250,000.
-![Editing the axis for Endorsements - tick marks](15.endorsements-ticks.png?cropResize=700,700)
+![Edit y-axis](05.edit-axis.png)
+2. In the **General** tab, set the Range to _Fixed_. There is no need to change the default values.
+![Editing y-axis: General](06.endorsements-range.png?cropResize=700,700)
+3. Switch to the **Tick Marks** tab.
+4. Set the Major Tick Marks to _Fixed_. Here we are less concerned about having them change on us (since the range will not change), but we cannot define the tick interval without choosing this setting.
+5. Change the tick interval to 250,000.
+![Editing y-axis: Tick Marks](07.endorsements-ticks.png?cropResize=700,700)
 6. Click the "X" symbol at the top right of the menu to dismiss it.
-7. Right click the x-axis (_Total Downloads_) and choose _Edit Axis..._.
-8. Set the **Range** to _Fixed_. There is no need to change the default values here either.
-![Editing the axis for downloads - general](16.dls-range.png?cropResize=700,700)
-9. Switch to the _Tick Marks_ tab and set **Major Tick Marks** to _Fixed_. There is no need to change the tick interval this time, since it defaults to 10 million.
-![Editing the axis for downloads - tick marks](17.dls-ticks.png?cropResize=700,700)
+
+### Total Downloads (x-axis)
+
+7. Right click on the x-axis (_Total Downloads_) and choose _Edit Axis..._.
+8. On the **General** tab, set the Range to _Fixed_. There is no need to change the default values here either.
+![Editing x-axis: General](08.dls-range.png?cropResize=700,700)
+9. Switch to the **Tick Marks** tab and set Major Tick Marks to _Fixed_. There is no need to change the tick interval this time, since it defaults to 10 million.
+![Editing x-axis: Tick Marks](09.dls-ticks.png?cropResize=700,700)
 10. Close the window.
 
 ## Finished Plot
 
-![The finished, formatted scatter plot](18.finished-plot.png)
+![The finished, formatted scatter plot](10.finished-plot.png)

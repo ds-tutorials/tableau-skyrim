@@ -30,7 +30,7 @@ Since the moment we added _Country_ to the worksheet, this "3 unknown" message a
 3. There are two columns here, with the data we are most interested in the top rows. The first three values in the _Your Data_ column (England, Not specified, and Wales) are listed as _Unrecognized_ in the _Matching Location_ column. Tableau only recognizes the United Kingdom, so we will need to tell it to map England and Wales as part of the UK. If we click on the box saying _Unrecognized_ and start typing _United Kingdom_, a drop down will pop up with various options, including the one we want. Select this for both England and Wales.
 ![Editing England's location](03.united-kingdom.png)
 4. Click OK.
-! Note that we did not actually change the data - the Country fields for these records will still state _England_ or _Wales_, but now Tableau will know how to map these values. This would not be a solution for cleaning messy data. A good option is [OpenRefine](https://openrefine.org/), a free, open-source tool that makes it easy to investigate and clean data. OU Digital Scholarship maintains a [tutorial](https://ds-tutorials.github.io/openrefine-tutorial/) if you are interested.
+! Note that we did not actually change the data - the Country fields for these records will still state _England_ or _Wales_, but now Tableau will know how to map these values. This would not be a solution for cleaning messy data. A good option is [OpenRefine](https://openrefine.org/), a free, open-source tool that makes it easy to investigate and clean data. OU Digital Scholarship maintains an [OpenRefine tutorial](https://ds-tutorials.github.io/openrefine-tutorial/) if you are interested.
 
 ### Removing _Not Specified_ Country Values
 
@@ -38,11 +38,11 @@ There is not a good value to map our unspecified countries. We do want to remove
 
 1. Locate _Country_ from the **Data** sidebar.
 2. Drag it onto the **Filters** shelf. Pay special attention to the small orange triangle that appears on the edge of the box. This, in addition to the orange outline, indicates that _Country_ will be added.
-![Adding _Country_ to the **Filters** shelf](04.country-filters-shelf.png)
+![Adding Country filter](04.country-filters-shelf.png)
 ! Note: An alternative to this would be to find _Country_ on the **Marks** shelf, right click, and choose _Filter..._
 3. The popup that appears will default to the _General_ tab with _Select from list_ chosen. In the list, select only the value for _Not specified_. If necessary, click the _None_ button first to deselect all values.
 4. Then click the checkbox for _Exclude_. The Summary Selection should read: _Excluded 1 of 69 values_.
-![Setting filter to exclude Not specified Country values](05.exclude-not-specified.png?cropResize=700,700)
+![Excluding not specified values](05.exclude-not-specified.png?cropResize=700,700)
 5. Click OK.
 ! Note: An alternative would be to select every value except for _Not Specified_ and to leave _Exclude_ unchecked. Both options would have the same result.
 
@@ -71,22 +71,22 @@ The second option on our new filter is _Null_, which is a placeholder for a non-
 
 1. Right click on _Category_ under **Dimensions**.
 2. Choose _Duplicate_.
-![Duplicating the Category dimension](09.duplicate-category.png)
+![Duplicating Category](09.duplicate-category.png)
 3. Right click on the duplicate _Category (copy)_ and choose _Rename_.
 4. Change the name to _Category (null filter)_. This describes how we are using the dimension and will make its purpose obvious when we look at our current filters.
 5. Now drag _Category (null filter)_ to the **Filters** shelf.
 6. Choose only _Null_ and click the _Exclude_ checkbox. The Summary Selection should read: _Excluded 1 of 60 values_.
-![Setting filter to exclude Null Category values](10.exclude-null-categories.png?cropResize=700,700)
+![Excluding null values](10.exclude-null-categories.png?cropResize=700,700)
 7. Click OK.
 
 You may notice that _Null_ is still displayed on the worksheet's category filter. The issue is that the _Category_ filter is currently displaying all possible values from the dataset, even if there are no values and it is therefore irrelevant.
 
 1. Click the arrow at the top right of the category filter.
 2. Choose _Only Relevant Values_. Because _Null_ is filtered out, it is no longer a relevant value.
-![Setting the displayed Category filter to Only Relevant Values](11.relevant-values.png)
+![Filtering only relevant values](11.relevant-values.png)
 3. Click the arrow again and take a look at the options above _Only Relevant Values_, ranging from _Single Value (list)_ to _Wildcard Match_. These are the choices for how we display our filter. Our options would be slightly different if we had continuous, rather than discrete (categorical) data.
 4. Choose _Single Value (dropdown)_. This will be the most effective for what we are showing.
-![Setting the displayed Category filter to Single Value (dropdown)](12.single-value-dropdown.png)
+![Changing filter to dropdown](12.single-value-dropdown.png)
 5. If the dropdown defaults to _Alchemy_ you may want to set it to _All_ instead so you can see all the data as we continue working with it.
 
 As you can see, the dropdown takes up a lot less space than the list of checkboxes.

@@ -70,7 +70,7 @@ Since we are satisfied with the measures we are displaying in the map, we should
 
 1. Click on the Tooltip box on the **Marks** shelf. This will open up a dialog box allowing us to edit the text.
 2. Change the label _Count of mods.csv_ to _Number of Mods_. This makes it clear to viewers what the value is measuring.
-![Edit tooltip text. Country: \<Country\>, Number of Mods \<CNT(mods.csv\>, Rank of Count of mods.csv along Country: \<Rank of CNT(mods.csv)\>, Avg. Endorsements: \<AVG(Endorsements)\>](08.edit-tooltip-text.png)
+![Edit tooltip text. Country: <Country>, Number of Mods <CNT(mods.csv>, Rank of Count of mods.csv along Country: \<Rank of CNT(mods.csv)\>, Avg. Endorsements: \<AVG(Endorsements)\>](08.edit-tooltip-text.png)
 It is possible that the rows on your tooltip may not be in the same order as those shown in the screenshot. The order is up to you, so you can rearrange them to match or leave them as they are (or choose a completely new order).
 ! Note: Do not change `<CNT(mods.csv)>`. This phrase references the measure itself, so changing the name would confuse Tableau and cause errors.
 3. (Optional) Remove the line for the _Rank of Count of mods.csv along Country_. If you do not remove this line you will want to rename it to something more readable. For example: _Rank by Number of Mods_.

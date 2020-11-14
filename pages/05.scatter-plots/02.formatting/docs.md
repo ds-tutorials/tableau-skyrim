@@ -1,5 +1,5 @@
 ---
-title: 'Filtering and Formatting'
+title: Formatting
 taxonomy:
     category:
         - docs

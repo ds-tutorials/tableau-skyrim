@@ -1,5 +1,6 @@
 ---
 title: 'Copying a Plot'
+media_order: '01.calculated-field.png,02.add-endorsements.png,03.finished-field.png,04.duplicate-endorsements-plot.png,05.replace-endorsements.png,06.initial-plot.png,07.format-axis.png,08.find-numbers.png,09.percentage.png,10.axis-range.png,11.axis-ticks.png,12.finished-plot.png'
 taxonomy:
     category:
         - docs

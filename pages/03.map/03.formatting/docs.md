@@ -1,5 +1,6 @@
 ---
 title: Formatting
+media_order: '01.legend-default.png,02.legend-colors.png,03.edit-colors-options.png,04.edit-legend-title.png,05.tooltip-default.png,06.tooltip-add-measure.png,07.avg-endorsements.png,08.edit-tooltip-text.png,09.tooltip-edited.png,10.tooltip-preview.png,11.uk-tooltip.png,12.show-mark-labels.png,13.country-labels.png'
 taxonomy:
     category:
         - docs

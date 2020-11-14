@@ -1,6 +1,6 @@
 ---
 title: 'Starting a Plot'
-media_order: '01.rows.png,02.show-me-scatter-plot.png,03.endorsements-rows.png,04.swap-rows-cols.png,05.single-point-plot.png'
+media_order: '01.rows.png,02.show-me-scatter-plot.png,03.endorsements-rows.png,04.swap-rows-cols.png,05.single-point-plot.png,06.marks-detail.png,07.many-point-plot.png'
 taxonomy:
     category:
         - docs

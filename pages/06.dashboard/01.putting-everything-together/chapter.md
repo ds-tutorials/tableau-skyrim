@@ -1,5 +1,6 @@
 ---
 title: 'Putting Everything Together'
+media_order: '01.new-dashboard.png,02.set-size.png,03.worksheets.png,04.add-tags.png,05.move-box.png,06.move-tags.png,07.tags-and-map.png,08.adjust-map-size.png,09.add-scatter-plots.png,10.text-object.png,11.add-text-object.png,12.after-adding-text.png,13.dashboard-organized.png'
 taxonomy:
     category:
         - docs

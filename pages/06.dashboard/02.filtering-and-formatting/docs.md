@@ -71,31 +71,30 @@ It is possible to adjust the order we apply filters to our data, but not from th
 
 ### Fixing the Category Filter
 
-We have fixed _Top Tags_, but we still have an issue. Clicking on the _Category_ filter reveals that the second option (just below _(All)_) is _Null_. This is particularly distressing after all the work we did to add a null category filter and only display relevant values in the filter.
+We have fixed _Top Tags_, but this has caused us a new issue. Clicking on the _Category_ filter reveals that the second option, just below _(All)_, is _Null_. This is particularly distressing after all the work we did to add a null category filter and only display relevant values in the filter.
 
 ![Category filter with Null option](09.null-category.png)
 
-To illustrate why we do need to fix this, try selecting _Null_. While their stats are displayed in the bar chart and scatter plots, the map goes completely blank. Leaving _Null_ available to our viewers does not seem like a good option.
+To illustrate why we do need to fix this, try selecting _Null_. While mod data is still displayed in the bar chart and scatter plots, the map goes completely blank. Leaving _Null_ available to our viewers does not seem like a good option.
 
-![Choosing _Null_ Category value](10.picking-null.png)
+![Blank map with null category](10.picking-null.png)
 
 Fortunately, we can fix this issue the same way we fixed _Top Tags_.
 
-1. Change the category in the filter back to _Models and Textures_. (Filtering on _Null_ seems like a bad idea when we are about to remove the option to filter on _Null_).
-2. Go from the dashboard to the _Map_ worksheet.
-3. Right click on _Category(null filter)_ and choose _Add to Context_.
-![The **Filters** shelf for _Map_ with _Category(null filter)_ added to context](11.map-filters-shelf.png)
-4. Go back to the dashboard and verify that _Null_ is no longer an option.
+1. Leave the dashboard and go to the _Map_ worksheet. One of the filters on the **Filters** shelf is already grayed out - the one we added to context from the bar chart worksheet.
+2. Right click on _Category(null filter)_ and choose _Add to Context_.
+![Category(null filter) added to context](11.map-filters-shelf.png)
+3. Go back to the dashboard and verify that _Null_ is no longer an option.
 
 ## Formatting Titles
 
-Before we call our dashboard done, we should probably format a couple of the worksheet titles. _Endorsements_ and _Approval Ratio_ are useful and informative, but _Map_ is rather pointless, and _Top Tags_ could stand to be more informative.
+Before we call our dashboard done, we should probably format a couple of the worksheet titles. Endorsements and Approval Ratio are useful and informative, but Map is rather pointless, and Top Tags could stand to be more informative.
 
 1. Right click on the _Map_ title and choose _Hide Title_.
-![Hiding _Map_ title](12.hide-title.png)
+![Hiding Map title](12.hide-title.png)
 2. Right click on the _Top Tags_ title, but this time choose _Edit Title..._. Currently it is using the worksheet title as the title for the dashboard, but we can have it display any text we want.
 3. Change the text to: Top Tags by Number of Mods.
-![Editing _Top Tags_ title](13.top-tags-title.png)
+![Editing Top Tags title](13.top-tags-title.png)
 4. Click OK.
 
 We are now ready to move on to the finishing steps of the tutorial.

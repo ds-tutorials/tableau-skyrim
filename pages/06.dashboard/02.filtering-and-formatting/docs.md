@@ -1,5 +1,6 @@
 ---
 title: 'Filtering and Formatting'
+media_order: '01.filter-icon.png,02.filter-options.png,03.add-category-filter.png,04.all-on-dashboard.png,05.test-filters.png,06.add-to-context.png,07.filters-shelf.png,08.fixed-tag-filter.png,09.null-category.png,10.picking-null.png,11.map-filters-shelf.png,12.hide-title.png,13.top-tags-title.png'
 taxonomy:
     category:
         - docs

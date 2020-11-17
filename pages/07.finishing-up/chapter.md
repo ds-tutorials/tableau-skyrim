@@ -27,9 +27,7 @@ We will start by creating a new story.
 2. Right click _Story 1_ and rename it _Skyrim Mods_.
 3. Find the **Size** section on the left tab. Note that it is much lower than it is for the dashboard and that the default is for a fixed size, rather than a range. I decided to leave the size at the default, but you can change it if you prefer.
 ![The Size section](02.size.png)
-4. Find the worksheets and dashboards on the left.
-! Note: All worksheets and dashboards show up in this list, but it is possible to hide some of them to avoid cluttering your view. To do this, right click on a dashboard tab that has worksheets added to it and choose the option _Hide All Sheets_. You can change this at any time by right clicking and unhiding the sheets.
-
+4. Find the worksheets and dashboards on the left. By default all worksheets and dashboards will show up in this list, but it is possible to hide some of them to avoid cluttering your view. To do this, right click on a dashboard tab that has worksheets added to it and choose the option _Hide All Sheets_. You can change this at any time by right clicking and unhiding the sheets. In this situation we have few enough worksheets that it is probably not necessary.
 ![Worksheets and dashboards: Map, Top Tags, Endorsements, Approval Ratio, Mods Dashboard](03.worksheets.png)
 5. Add the dashboard (_Mods Dashboard_) by clicking and dragging it onto the blank story.
 ![The story after adding Mods Dashboard](04.dashboard-story.png)

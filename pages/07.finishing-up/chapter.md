@@ -1,5 +1,6 @@
 ---
 title: 'Finishing Up'
+media_order: '01.new-story.png,02.size.png,03.worksheets.png,04.dashboard-story.png,05.new-story-point.png,06.layout-tab.png,07.navigator-style.png,08.edit-details.png,09.details.png,10.share.png'
 taxonomy:
     category:
         - docs

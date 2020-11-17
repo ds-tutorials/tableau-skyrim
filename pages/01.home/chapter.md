@@ -13,6 +13,8 @@ intro:
 isIntro: true
 ---
 
+!!! This is the latest version of this tutorial. If there are any problems with it, you can access the [previous Tableau tutorial](https://www.ds-tutorials.oucreate.com/tableau-skyrim-v1) instead.
+
 ## What is Tableau?
 
 Tableau is a powerful and popular drag-and-drop data visualization tool that allows users to create interactive visualizations without any programming. It has a free version called Tableau Public that anyone can download and use. The only caveat is that you have to save your visualization online. There are ways to hide your creations so that they are not searchable and are not visible on your profile, but this would not be good enough if you have truly sensitive data.
